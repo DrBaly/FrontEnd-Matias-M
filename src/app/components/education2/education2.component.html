@@ -1,0 +1,39 @@
+<div class="fondoE">
+  <li class="textoES">
+    <ul>
+      <button
+        type="button"
+        class="btn btn-dark"
+        routerLink="/nuevaedu"
+        *ngIf="isLogged"
+      >
+        Nuevo Estudio
+      </button>
+    </ul>
+    <ul>
+      <li *ngFor="let Educacion of educacion">
+        <td>
+          <br />
+          <br />
+          <h2>{{ Educacion.nombreE }}</h2>
+        </td>
+        <br />
+        <td>{{ Educacion.descripcionE }}</td>
+        <br />
+        <td *ngIf="isLogged">
+          <button
+            class="btn btn-light"
+            routerLink="/editedu/{{ Educacion.id }}"
+          >
+            <i class="bi bi-pencil-fill"></i> EDITAR
+          </button>
+        </td>
+        <td *ngIf="isLogged">
+          <button class="btn btn-danger" (click)="delete(Educacion.id)">
+            <i class="bi bi-trash-fill"></i> BORRAR
+          </button>
+        </td>
+      </li>
+    </ul>
+  </li>
+</div>

@@ -1,0 +1,7 @@
+{
+  "/personas/*": {
+    "target": "https://portfoliodrbaly.herokuapp.com/",
+    "secure": false,
+    "loglevel": "debug"
+  }
+}

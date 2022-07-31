@@ -1,0 +1,37 @@
+.fondoE {
+  background-image: url(../../../assets/BannerWorkE.png);
+  background-size: 100% 100%;
+  height: 700px;
+}
+
+.textoES {
+  text-align: right;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-left: 800px;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 15px;
+  display: inline;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+lu {
+  list-style: none;
+}
+
+img {
+  width: 100px;
+  display: inline;
+}

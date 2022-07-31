@@ -1,0 +1,54 @@
+* {
+  background-color: black;
+  text-align: center;
+  color: white;
+  background-size: 100% 100%;
+  font-weight: bold;
+}
+
+#nombre {
+  color: white;
+  font-size: 30px;
+}
+
+#acercademi {
+  padding-top: 15px;
+}
+
+@media (min-width: 576px) {
+  #fotodeperfil {
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px lightblue;
+    left: 3%;
+  }
+}
+@media (max-width: 575px) {
+  #fotodeperfil {
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px lightblue;
+    left: 33%;
+  }
+}
+
+/*etiqueta nombre*/
+#nombre {
+  font-weight: bold;
+  margin-top: 30%;
+  color: white;
+}
+
+#iconologo {
+  width: 50px;
+  position: relative;
+  padding: 50px;
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+span {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+}

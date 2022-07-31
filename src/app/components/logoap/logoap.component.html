@@ -1,0 +1,28 @@
+<div>
+  <img src="../../../assets/APLogo.png" id="aplogo" />
+
+  <a href="/login"
+    ><img
+      src="../../../assets/user-nuevo tamañob.png"
+      (click)="login()"
+      *ngIf="!isLogged"
+      id="iconologo"
+  /></a>
+  <a href="/login"
+    ><img
+      src="../../../assets/salirlogout.png"
+      (click)="onLogOut()"
+      *ngIf="isLogged"
+      id="iconologo2"
+  /></a>
+  <a href="https://github.com/DrBaly"
+    ><img src="../../../assets/githubb.png" id="imgiconos"
+  /></a>
+  <a
+    href="https://www.linkedin.com/in/matias-nicolas-mari%C3%B1ansky-531425223/"
+    ><img src="../../../assets/linkedinb.png" id="imgiconos" />
+  </a>
+  <a href="https://www.facebook.com/matias.marinansky"
+    ><img src="../../../assets/facebookb.png" id="imgiconos"
+  /></a>
+</div>

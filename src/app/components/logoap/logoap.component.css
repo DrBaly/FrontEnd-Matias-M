@@ -1,0 +1,36 @@
+#aplogo {
+  position: relative;
+  display: inline;
+  width: 130px;
+}
+
+#iconologo {
+  width: 50px;
+  position: relative;
+  padding: 10px;
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#imgiconos {
+  position: relative;
+  width: 50px;
+  padding: 10px;
+  display: inline;
+  float: right;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+#iconologo2 {
+  width: 50px;
+  position: relative;
+  padding: 10px;
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  /* background-color: aqua; */
+}
